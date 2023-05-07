@@ -9,7 +9,7 @@
                 "-g",
                 "${workspaceFolder}\\src\\*.cpp",
                 "-o",
-                "${workspaceFolder}\\app\\app.exe"
+                "${workspaceFolder}\\src\\app"
             ],
             "options": {
                 "cwd": "${fileDirname}"

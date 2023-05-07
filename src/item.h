@@ -13,11 +13,6 @@ using namespace std;
         void setvalor(int valor);
         int getvalor();
         item* getprox();
-
-     
-    
-        
-
     };
 
 #endif // !_it

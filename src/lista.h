@@ -16,6 +16,7 @@ class lista{
         void inserir_ultimo(item* novo_item);
         void remover_ultimo();
         void inserir_inicio(item* novo_item);
+        void remover_valor(int valor);
         void remover_inicio();
         void imprimir();
         int  size();

@@ -74,6 +74,36 @@ using namespace std;
                 head=aux;
             }
         }
+
+        void lista::remover_valor(int valor){
+            item* walk=head;
+            item* previous=NULL;
+            bool item_finded=false;
+            if(vazia()){
+                cout<<"A lista já está vazia!!";
+                return;
+            }
+            while(walk!=NULL){
+                if(walk->getvalor()==valor){
+                item_finded=true;
+                break;
+                }
+                previous=walk;
+                walk=walk->getprox();
+            }
+            if(item_finded){
+                if(walk==head){
+                    this->remover_inicio();
+                }
+                else if(walk==tail){
+                    this->remover_ultimo();
+                }
+                else{
+                    previous->setprox(walk->getprox());
+                    delete walk;
+                }
+            }
+        }
         void lista::imprimir(){
             if(vazia()){
                 cout<<"Lista Vazia !!"<<endl;
