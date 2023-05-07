@@ -9,16 +9,16 @@ int main(){
     setlocale(LC_ALL, "");
     lista l;
 
+ 
     for(int i=1;i<=10;i++){// INSERE ELEMENTOS 1-10 NA LISTA
 
         l.inserir_ultimo(new item(i));
     }
 
-    l.imprimir();//IMPRIME A LISTA
 
     for(int i=1;i<=10;i++){
 
-        l.remover_ultimo(); 
+        l.remover_valor(rand()%10); 
     }
 
     l.imprimir();
