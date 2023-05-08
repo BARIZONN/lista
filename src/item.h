@@ -15,4 +15,6 @@ using namespace std;
         item* getprox();
     };
 
+    /*mudanças sobreescrever remota*/
+
 #endif // !_it
