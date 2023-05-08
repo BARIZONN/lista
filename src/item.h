@@ -16,5 +16,6 @@ using namespace std;
     };
 
     /*mudanças nao-sobreescrever remota*/
+    /*mudança remota 2*/
 
 #endif // !_it
