@@ -18,4 +18,5 @@ using namespace std;
             return prox;
         }
 
-        /* Mudança remota n1*/
+        /* Mudança remota n1*/  
+        /*Mudança remot n2*/
