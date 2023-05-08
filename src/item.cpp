@@ -17,3 +17,5 @@ using namespace std;
         item* item::getprox(){
             return prox;
         }
+
+        /* Mudança remota n1*/
